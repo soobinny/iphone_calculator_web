@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <style>
+        div.calculator{
+            width: 375px;
+            height: 667px;
+            background-color: black;
+        }
+        input[type = "text"]{
+            width: 375px;
+            height: 230px;
+            background-color: black;
+            border: solid 0px;
+            color : white;
+            margin-left: 0px;
+            padding: 0px;
+        }
+
+        input[type="button"]{
+            width: 70px;
+            height: 70px;
+            border-radius: 50px;
+            border: 0px;
+            font-size:30px;
+            margin-left : 15px;
+            margin-bottom: 15px;
+        }
+        input[value = "0"]{
+            width: 160px;
+        }
+        .top{
+            background-color: lightgray;
+        }
+        .opr{
+            background-color: orange;
+            color: white;
+            font-size: larger;
+        }
+    
+        .num, .dot{
+            background-color: rgb(81, 81, 81);
+            color: white;
+        }
+    </style>
+  </head>
+  <body>
+    <div class = "calculator">
+      <form>
+        <input type="text" />
+        <input type="button" value="AC" class="top" />
+        <input type="button" value="+/-" class="top" />
+        <input type="button" value="%" class="top" />
+        <input type="button" value="÷" class="opr" />
+        <input type="button" value="7" class="num" />
+        <input type="button" value="8" class="num" />
+        <input type="button" value="9" class="num" />
+        <input type="button" value="×" class="opr" />
+        <input type="button" value="4" class="num" />
+        <input type="button" value="5" class="num" />
+        <input type="button" value="6" class="num" />
+        <input type="button" value="-" class="opr" />
+        <input type="button" value="1" class="num" />
+        <input type="button" value="2" class="num" />
+        <input type="button" value="3" class="num" />
+        <input type="button" value="+" class="opr" />
+        <input type="button" value="0" class = "num" />
+        <input type="button" value="." class="dot"/>
+        <input type="button" value="=" class="opr" />
+      </form>
+    </div>
+  </body>
+</html>
